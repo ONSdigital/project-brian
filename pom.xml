@@ -11,7 +11,7 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jetty.version>9.4.39.v20210325</jetty.version>
+        <jetty.version>9.4.41.v20210516</jetty.version>
         <dp-logging.version>v2.0.0-beta.4</dp-logging.version>
     </properties>
 
