@@ -85,27 +85,27 @@
         </dependency>
 
         <!-- Encryption -->
-        <dependency>
-            <groupId>com.github.onsdigital</groupId>
-            <artifactId>dp-cryptolite-java</artifactId>
-            <version>1.5.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.bouncycastle</groupId>
-                    <artifactId>bcprov-jdk15on</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.onsdigital</groupId>-->
+<!--            <artifactId>dp-cryptolite-java</artifactId>-->
+<!--            <version>1.5.1</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.bouncycastle</groupId>-->
+<!--                    <artifactId>bcprov-jdk15on</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.github.onsdigital</groupId>
             <artifactId>encrypted-file-upload</artifactId>
             <version>encrypted-file-upload-2.1.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.github.davidcarboni</groupId>
-                    <artifactId>cryptolite</artifactId>
-                </exclusion>
-            </exclusions>
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>com.github.davidcarboni</groupId>-->
+<!--                    <artifactId>cryptolite</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
         </dependency>
 
         <!-- File transfer -->
