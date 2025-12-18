@@ -58,11 +58,13 @@ public class DataSetReaderCSDB implements DataSetReader {
             ArrayList<String> seriesBuffer = new ArrayList<>();
 
             //WALK THROUGH THE FILE
+            long lineNumber = 0;
             for (String line : lines) {
+                lineNumber++;
                 try {
                     if (line.length()<2) {
-                        error().log("line too short in csdb file, does not contain 2 digit line id");
-                        throw new BadFileException("line too short in csdb file, does not contain 2 digit line id");
+                        error().data("line",lineNumber).log("invalid csdb file, line read is too short");
+                        throw new BadFileException("invalid csdb file, line read is too short");
                     }
                     int LineType = Integer.parseInt(line.substring(0, 2));
 
