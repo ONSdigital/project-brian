@@ -192,6 +192,14 @@
                     <!-- if CVSS >= 7.0 (critical) then ERROR else WARN -->
                     <fail>true</fail>
                     <cvssScoreThreshold>7.0</cvssScoreThreshold>
+                    <excludeVulnerabilityIds>
+                        <!-- Note - OSS Index suppressions are global, not per dependency -->
+                        <!--
+                            Jira epic to remove the following exclusion: DIS-4777
+                         -->
+                        <exclude>CVE-2026-2332</exclude>
+                        <!-- End DIS-4777 -->
+                    </excludeVulnerabilityIds>
                 </configuration>
                 <executions>
                     <execution>
