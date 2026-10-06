@@ -10,7 +10,7 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <dp-logging.version>v2.1.0</dp-logging.version>
+        <dp-logging.version>v2.1.1</dp-logging.version>
     </properties>
 
     <repositories>
