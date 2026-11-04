@@ -14,7 +14,7 @@
     </properties>
 
     <repositories>
-        <!-- Adding maven central repo explicitly to perent jitpack.io resolve artifacts that are already on Github. Otherwise handlebars-java fails -->
+        <!-- Adding maven central repo explicitly to prevent jitpack.io resolving artifacts that are already on Github. Otherwise handlebars-java fails -->
         <repository>
             <snapshots>
                 <enabled>false</enabled>
